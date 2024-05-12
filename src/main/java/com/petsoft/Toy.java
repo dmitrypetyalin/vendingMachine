@@ -5,7 +5,7 @@ package com.petsoft;
  * @date 11.05.2024 16:21
  */
 public class Toy {
-    private int id;
+    private final int id;
     private static int count;
     private static int amount;
     private String name;

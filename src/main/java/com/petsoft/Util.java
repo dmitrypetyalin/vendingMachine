@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 public class Util {
     private static final Logger LOG = LoggerFactory.getLogger(Util.class);
     private static final String fileSeparator = File.separator;
-    private static String path = "C:" + fileSeparator + "Users" + fileSeparator + "dmitr" + fileSeparator + "IdeaProjects"
+    private static final String path = "C:" + fileSeparator + "Users" + fileSeparator + "dmitr" + fileSeparator + "IdeaProjects"
             + fileSeparator + "vendingMachine" + fileSeparator + "src" + fileSeparator + "main" + fileSeparator + "java" + fileSeparator + "log" + fileSeparator + "log.txt";
 
     public static File createFile(String fileName) {
