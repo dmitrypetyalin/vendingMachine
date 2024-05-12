@@ -30,9 +30,9 @@ public class VendingMachine {
             int randomInt = random.nextInt(10) * 10;
             for (Toy toy : toys) {
                 if (toy.getOdds() == randomInt) {
-                    toys.remove(toy);
-                    toy.reduceAmount();
                     Logger.writeLog(toy.toString());
+                    toy.reduceAmount();
+                    toys.remove(toy);
                     return toy;
                 }
             }
