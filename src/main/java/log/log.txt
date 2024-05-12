@@ -1,0 +1,4 @@
+Toy {id=12, name='Ball, amount=17, odds=20}
+Toy {id=7, name='Car, amount=16, odds=40}
+Toy {id=3, name='Doll, amount=15, odds=70}
+Toy {id=6, name='Train, amount=14, odds=50}
